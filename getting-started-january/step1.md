@@ -1,5 +1,5 @@
-First we need to import January
+First we need to import Eclipse January
 
 `import org.eclipse.january.dataset.*`{{execute}}
 
-Now your all ready to go create datasets
+Now you are all ready to start creating datasets

@@ -5,4 +5,4 @@ First we can create a new dataset:
 
 This gives us a 1-dimensional array with 9 elements, which you can see by executing the code below:
 
-`System.out.println(dataset.toString(true))`{{execute}}
+`dataset.toString(true)`{{execute}}

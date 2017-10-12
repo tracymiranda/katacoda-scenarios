@@ -1,6 +1,6 @@
 {
   "title": "Getting Started with Eclipse January",
-  "description": "A primer on using Eclipse January Datasets",
+  "description": "An overview of Eclipse January Datasets",
   "details": {
     "steps": [
       { "title": "Starting jshell", "text": "step1.md", "code": "jshell.sh" },
