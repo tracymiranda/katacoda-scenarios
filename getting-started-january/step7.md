@@ -1,13 +1,11 @@
-The org.eclipse.january.dataset.Maths provides rich functionality for operating on the Dataset classes. For instance, here’s how you could add 2 Dataset arrays:
+Datasets also provide a straightforward way to create an array initialized with random numbers.
 
-`Dataset add = Maths.add(dataset, another)`{{execute}}
+To create a dataset with random data we first need to import the random class.
 
-`System.out.println(add.toString(true))`{{execute}}
+`import org.eclipse.january.dataset.Random`{{execute}}
 
-Or you could do it as an inplace addition. The example below creates a new 3×3 array and then adds 100 to each element of the array.
+Then, use the code below to create a random dataset.
 
-`Dataset inplace = DatasetFactory.createFromObject(new double[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }).reshape(3, 3)`{{execute}}
+`Dataset another = Random.rand(new int[]{3,5})`{{execute}}
 
-`inplace.iadd(100)`{{execute}}
-
-`System.out.println(inplace.toString(true))`{{execute}}
+`System.out.println(another.toString(true))`{{execute}}
