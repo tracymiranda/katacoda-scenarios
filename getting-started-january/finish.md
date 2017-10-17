@@ -1,6 +1,6 @@
 Congratulations! You just finished learning the basics of multidimensional arrays in Java with Eclipse January.
 
-##What's next?
+## What's next?
 
 This tutorial is just a small *slice* of what Eclipse January can do. See more examples for slicing, error, iterations and numpy from the github repository https://github.com/eclipse/january/tree/master/org.eclipse.january.examples#eclipse-january-examples-and-getting-started
 
