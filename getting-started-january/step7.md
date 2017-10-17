@@ -6,6 +6,6 @@ To create a dataset with random data we first need to import the random class.
 
 Then, use the code below to create a random dataset.
 
-`Dataset another = Random.rand(new int[]{3,5})`{{execute}}
+`Dataset another =  Random.rand(3, 5)`{{execute}}
 
 `System.out.println(another.toString(true))`{{execute}}
